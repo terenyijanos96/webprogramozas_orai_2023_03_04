@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2 {
+    padding: 10px;
+}
+ 
+#felsorolas,
+#masik {
+    padding: 0 50px;
+}
+
+.hobbik {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.hobbi-elem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 30px;
+    flex: 0 0 calc(33.333333% - 60px);
+    height: 150px;
+    justify-content: center;
+}
+
+.hatter {
+    background-color: #000000;
+    color: #e9fc44;
+    border-color: #e9fc44;
+}
